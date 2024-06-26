@@ -1,0 +1,40 @@
+.quiz {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .questionSection {
+    margin-bottom: 20px;
+  }
+  
+  .questionText {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .answerSection {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .optionButton {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .optionButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .scoreSection {
+    font-size: 1.5rem;
+  }
+  
