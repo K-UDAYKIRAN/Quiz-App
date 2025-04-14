@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Quiz App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>🎯 Build Your Own Quiz</h1>
+
+    <div id="setup-container">
+      <label for="num-questions">How many questions do you want to create?</label>
+      <input type="number" id="num-questions" min="1" max="10" />
+      <button id="generate-form-btn">Next ➡️</button>
+    </div>
+
+    <form id="question-form" style="display: none;"></form>
+
+    <div id="quiz-section" style="display: none;">
+      <div id="timer-box">
+        ⏳ Time Left: <span id="timer">30</span> sec
+      </div>
+      <h2 id="question-text"></h2>
+      <div id="answer-buttons"></div>
+    </div>
+
+    <div id="result-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
